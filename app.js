@@ -54,7 +54,7 @@ app.controller('mainController', function($scope, $mdToast){
 
 
 
-var app = angular.module('plunker', ['nvd3'])
+var app = angular.module('api', ['nvd3'])
 
 .controller('graphControl', function($scope) {
     $scope.options = {
